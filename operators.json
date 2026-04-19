@@ -1,11 +1,11 @@
 {
-  "version": 3,
+  "version": 4,
   "updated": "2026-04-19",
   "operators": [
     {
       "id": "pluralzzz",
       "name": "Daniel Negre",
-      "description": "ZNP creator. Node runs on a server in Valencia, Spain.",
+      "description": "ZNP creator. Node runs on an in-house server in Valencia, Spain.",
       "contact": "daniel@negrenavarro.me",
       "website": "negrenavarro.me",
       "location": {
