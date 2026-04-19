@@ -31,7 +31,7 @@
         "country": "FI",
         "city": "Helsinki"
       },
-      "servers": ["wss://znp-hc.isitzoe.dev"],
+      "servers": ["wss://znp-hc.isitzoe.dev", "wss://znp-ecli.isitzoe.dev"],
       "policies": {
         "logging": "no",
         "retention": "no",
