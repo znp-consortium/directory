@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "updated": "2026-04-19",
+  "servers": [
+    {
+      "url": "wss://znp.negrenavarro.me",
+      "region": "valencia-spain",
+      "operator": "pluralzzz"
+    }
+  ]
+}
