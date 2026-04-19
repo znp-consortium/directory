@@ -24,7 +24,7 @@
     {
       "id": "isitzoe",
       "name": "Zoe",
-      "description": "Member of Hack Club. Node runs on a Hetzner server in Helsinki, Finland.",
+      "description": "Member of Hack Club. Nodes run on a Hetzner server in Helsinki, Finland and a Datalix server in Dulles, Virginia, US.",
       "contact": "zoe@isitzoe.dev",
       "location": {
         "region": "helsinki-finland",
