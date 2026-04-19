@@ -3,7 +3,7 @@
 <!-- badges:start -->
 <p align="center">
   <img alt="servers" src="https://img.shields.io/badge/servers-2-blue" />
-  <img alt="operators" src="https://img.shields.io/badge/operators-1-blue" />
+  <img alt="operators" src="https://img.shields.io/badge/operators-2-blue" />
 </p>
 <!-- badges:end -->
 
