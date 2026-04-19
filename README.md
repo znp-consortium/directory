@@ -2,8 +2,8 @@
 
 <!-- badges:start -->
 <p align="center">
-  <a href="https://znp-consortium.github.io/directory/"><img alt="servers" src="https://img.shields.io/badge/servers-1-blue" /></a>
-  <a href="https://znp-consortium.github.io/directory/"><img alt="operators" src="https://img.shields.io/badge/operators-1-blue" /></a>
+  <img alt="servers" src="https://img.shields.io/badge/servers-1-blue" />
+  <img alt="operators" src="https://img.shields.io/badge/operators-1-blue" />
 </p>
 <!-- badges:end -->
 
