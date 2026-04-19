@@ -1,0 +1,63 @@
+name: Update directory badges
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - servers.json
+      - operators.json
+      - .github/workflows/update-badges.yml
+      - README.md
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  badges:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Count entries
+        id: counts
+        run: |
+          servers=$(jq '.servers | length' servers.json)
+          operators=$(jq '.operators | length' operators.json)
+          echo "servers=$servers" >> "$GITHUB_OUTPUT"
+          echo "operators=$operators" >> "$GITHUB_OUTPUT"
+
+      - name: Rewrite badges block in README
+        env:
+          SERVERS: ${{ steps.counts.outputs.servers }}
+          OPERATORS: ${{ steps.counts.outputs.operators }}
+        run: |
+          awk -v s="$SERVERS" -v o="$OPERATORS" '
+            BEGIN { inside = 0 }
+            /<!-- badges:start -->/ {
+              print
+              print "![servers](https://img.shields.io/badge/servers-" s "-blue)"
+              print "![operators](https://img.shields.io/badge/operators-" o "-blue)"
+              inside = 1
+              next
+            }
+            /<!-- badges:end -->/ {
+              inside = 0
+              print
+              next
+            }
+            !inside { print }
+          ' README.md > README.md.new
+          mv README.md.new README.md
+
+      - name: Commit if changed
+        run: |
+          if git diff --quiet README.md; then
+            echo "README.md unchanged; nothing to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "chore: update directory badges [skip ci]"
+          git push
