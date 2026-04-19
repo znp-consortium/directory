@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "updated": "2026-04-19",
   "operators": [
     {
@@ -18,7 +18,25 @@
         "logging": "no",
         "retention": "no",
         "jurisdiction": "ES",
-        "tos": "n/a"
+        "tos": "no"
+      }
+    },
+    {
+      "id": "isitzoe",
+      "name": "Zoe",
+      "description": "Member of Hack Club. Node runs on a Hetzner server in Helsinki, Finland.",
+      "contact": "zoe@isitzoe.dev",
+      "location": {
+        "region": "helsinki-finland",
+        "country": "FI",
+        "city": "Helsinki"
+      },
+      "servers": ["wss://znp.isitzoe.dev"],
+      "policies": {
+        "logging": "no",
+        "retention": "no",
+        "jurisdiction": "FI",
+        "tos": "no"
       }
     }
   ]
