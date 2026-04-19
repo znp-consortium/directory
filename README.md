@@ -1,4 +1,12 @@
-# ZNP Directory
+<h1 align="center">ZNP Directory</h1>
+
+<!-- badges:start -->
+<p align="center">
+  <img alt="servers" src="https://img.shields.io/badge/servers-1-blue" />
+  <img alt="operators" src="https://img.shields.io/badge/operators-1-green" />
+</p>
+<!-- badges:end -->
+
 
 Public directory of ZNP websocket servers and the operators who run them.
 
