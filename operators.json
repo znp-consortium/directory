@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "updated": "2026-04-19",
+  "operators": [
+    {
+      "id": "pluralzzz",
+      "name": "Daniel Negre",
+      "description": "ZNP creator. Node runs on a server in Valencia, Spain.",
+      "contact": "daniel@negrenavarro.me",
+      "website": "negrenavarro.me",
+      "location": {
+        "region": "valencia-spain",
+        "country": "ES",
+        "city": "Valencia"
+      },
+      "servers": ["wss://znp.negrenavarro.me"],
+      "policies": {
+        "logging": "no",
+        "retention": "no",
+        "jurisdiction": "ES",
+        "tos": "n/a"
+      }
+    }
+  ]
+}
