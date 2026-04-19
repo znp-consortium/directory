@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>znp directory</title>
+  <meta name="description" content="Directory of ZNP signaling relays and their operators." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main>
+    <header>
+      <h1>ZNP Directory</h1>
+    </header>
+
+    <section>
+      <h2>servers <span class="count" id="servers-count">&mdash;</span></h2>
+      <table id="servers-table">
+        <thead>
+          <tr>
+            <th>url</th>
+            <th>region</th>
+            <th>operator</th>
+            <th class="ping">ping</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>operators <span class="count" id="operators-count">&mdash;</span></h2>
+      <div id="operator-list"></div>
+    </section>
+
+    <footer>
+      <a href="https://github.com/znp-consortium/directory">source</a>
+      <span class="sep">&middot;</span>
+      <a href="https://github.com/znp-consortium/directory#adding-your-server">add a server</a>
+    </footer>
+  </main>
+  <script src="app.js" type="module"></script>
+</body>
+</html>
