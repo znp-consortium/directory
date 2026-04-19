@@ -7,7 +7,7 @@
 </p>
 <!-- badges:end -->
 
-Public directory of ZNP WS-powered carrier servers and the operators who run them.
+Public directory of ZNP WS-based carrier servers and the operators who run them.
 
 ## servers.json
 
