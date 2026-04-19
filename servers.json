@@ -11,6 +11,11 @@
       "url": "wss://znp-hc.isitzoe.dev",
       "region": "helsinki-finland",
       "operator": "isitzoe"
+    },
+    {
+      "url": "wss://znp-ecli.isitzoe.dev",
+      "region": "dullesvirginia-us",
+      "operator": "isitzoe"
     }
   ]
 }
