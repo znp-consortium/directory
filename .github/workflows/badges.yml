@@ -36,8 +36,10 @@ jobs:
             BEGIN { inside = 0 }
             /<!-- badges:start -->/ {
               print
-              print "![servers](https://img.shields.io/badge/servers-" s "-blue)"
-              print "![operators](https://img.shields.io/badge/operators-" o "-blue)"
+              print "<p align=\"center\">"
+              print "  <img alt=\"servers\" src=\"https://img.shields.io/badge/servers-" s "-blue\" />"
+              print "  <img alt=\"operators\" src=\"https://img.shields.io/badge/operators-" o "-blue\" />"
+              print "</p>"
               inside = 1
               next
             }
