@@ -1,11 +1,16 @@
 {
-  "version": 1,
+  "version": 2,
   "updated": "2026-04-19",
   "servers": [
     {
       "url": "wss://znp.negrenavarro.me",
       "region": "valencia-spain",
       "operator": "pluralzzz"
+    },
+    {
+      "url": "wss://znp.isitzoe.dev",
+      "region": "helsinki-finland",
+      "operator": "isitzoe"
     }
   ]
 }
