@@ -1,8 +1,10 @@
 <h1 align="center">ZNP Directory</h1>
 
 <!-- badges:start -->
-![servers](https://img.shields.io/badge/servers-1-blue)
-![operators](https://img.shields.io/badge/operators-1-blue)
+<p align="center">
+  <img alt="servers" src="https://img.shields.io/badge/servers-1-blue" />
+  <img alt="operators" src="https://img.shields.io/badge/operators-1-blue" />
+</p>
 <!-- badges:end -->
 
 
